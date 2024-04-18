@@ -18,5 +18,13 @@ btn.addEventListener('click', () => {
     }
     textBox.value = '';
 
+});
 
+ul.addEventListener('click', (e) => {
+    if (e.target.nodeName == 'SPAN'){
+        e.target.parentElement.remove();
+    }
+    else if (e.target.nodeName == "LI"){
+        e.target.classList.toggle("checked");
+    }
 });
