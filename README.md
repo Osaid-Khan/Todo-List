@@ -1,5 +1,4 @@
-# Todo-List
-# To-do List Project
+# To-do List
 
 This is a simple project to mark the beginning of my web development journey. It's a practice project utilizing HTML, CSS, and JavaScript to create a basic to-do list application. Users can add tasks, mark them as completed, and delete them.
 
