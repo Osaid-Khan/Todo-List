@@ -23,7 +23,7 @@ This is a simple project to mark the beginning of my web development journey. It
 
 ## Usage
 
-- **Adding a Task**: Type the task in the input field and press Enter or click the "Add" button.
+- **Adding a Task**: Type the task in the input field and press Enter or click on the "Add" button.
 - **Marking as Completed**: Click on a task to mark it as completed. Click again to unmark.
 - **Deleting a Task**: Click on the delete button (usually represented by a 'X' icon) next to the task you want to remove.
 
