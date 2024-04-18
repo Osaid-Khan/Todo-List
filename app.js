@@ -36,7 +36,20 @@ ul.addEventListener('click', (e) => {
 });
 
 
-// Function to save tasks to local storage
+// Approach 1 (Good one)
+function saveTasksToLocalStorage() {
+    localStorage.setItem('data', ul.innerHTML);
+}
+
+function loadTasksFromLocalStorage(){
+    ul.innerHTML = localStorage.getItem('data');
+}
+
+
+
+
+// Approach 2 (Not Good Approach)
+/* // Function to save tasks to local storage
 function saveTasksToLocalStorage() {
     let tasks = [];
     ul.querySelectorAll('li').forEach(item => {
@@ -66,6 +79,9 @@ function loadTasksFromLocalStorage() {
         });
     }
 }
+*/
 
 // Load tasks from local storage when the page is loaded
 window.addEventListener('DOMContentLoaded', loadTasksFromLocalStorage);
+
+
